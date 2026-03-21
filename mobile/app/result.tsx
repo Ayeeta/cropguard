@@ -189,7 +189,7 @@ const styles = StyleSheet.create({
   cropType: {
     color: "#76C442",
     fontSize: 18,
-    fontWeight: "800",
+    fontFamily: "ZillaSlab_700Bold",
     backgroundColor: "rgba(28, 26, 20, 0.8)",
     paddingHorizontal: 14,
     paddingVertical: 8,
@@ -211,7 +211,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     color: "#76C442",
     fontSize: 13,
-    fontWeight: "700",
+    fontFamily: "DMSans_700Bold",
     textTransform: "uppercase",
     letterSpacing: 1,
     marginBottom: 8,
@@ -219,6 +219,7 @@ const styles = StyleSheet.create({
   outlookText: {
     color: "#E8E4D9",
     fontSize: 16,
+    fontFamily: "DMSans_400Regular",
     lineHeight: 24,
   },
   errorText: {

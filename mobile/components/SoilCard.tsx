@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     color: "#76C442",
     fontSize: 13,
-    fontWeight: "700",
+    fontFamily: "DMSans_700Bold",
     textTransform: "uppercase",
     letterSpacing: 1,
     marginBottom: 12,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   value: {
     color: "#FFFFFF",
     fontSize: 16,
-    fontWeight: "600",
+    fontFamily: "ZillaSlab_600SemiBold",
   },
   amendment: {
     color: "#E8E4D9",

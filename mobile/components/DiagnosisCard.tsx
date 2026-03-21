@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     color: "#76C442",
     fontSize: 13,
-    fontWeight: "700",
+    fontFamily: "DMSans_700Bold",
     textTransform: "uppercase",
     letterSpacing: 1,
     marginBottom: 8,
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   diseaseName: {
     color: "#FFFFFF",
     fontSize: 28,
-    fontWeight: "800",
+    fontFamily: "ZillaSlab_700Bold",
     marginBottom: 12,
   },
   row: {
@@ -90,11 +90,12 @@ const styles = StyleSheet.create({
   severityText: {
     color: "#1C1A14",
     fontSize: 13,
-    fontWeight: "700",
+    fontFamily: "DMSans_700Bold",
   },
   confidence: {
     color: "#E8E4D9",
     fontSize: 14,
+    fontFamily: "DMSans_400Regular",
   },
   barContainer: {
     marginBottom: 16,
@@ -102,6 +103,7 @@ const styles = StyleSheet.create({
   barLabel: {
     color: "#E8E4D9",
     fontSize: 13,
+    fontFamily: "DMSans_400Regular",
     marginBottom: 6,
   },
   barTrack: {
@@ -117,6 +119,7 @@ const styles = StyleSheet.create({
   description: {
     color: "#E8E4D9",
     fontSize: 14,
+    fontFamily: "DMSans_400Regular",
     lineHeight: 20,
   },
 });

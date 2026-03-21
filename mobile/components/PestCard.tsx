@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     color: "#76C442",
     fontSize: 13,
-    fontWeight: "700",
+    fontFamily: "DMSans_700Bold",
     textTransform: "uppercase",
     letterSpacing: 1,
     marginBottom: 12,
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   pestType: {
     color: "#FFFFFF",
     fontSize: 20,
-    fontWeight: "700",
+    fontFamily: "ZillaSlab_700Bold",
     marginRight: 12,
   },
   severityBadge: {

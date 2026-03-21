@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
   logo: {
     color: "#76C442",
     fontSize: 24,
-    fontWeight: "800",
+    fontFamily: "ZillaSlab_700Bold",
   },
   historyBtn: {
     backgroundColor: "rgba(42, 40, 32, 0.8)",
@@ -166,7 +166,7 @@ const styles = StyleSheet.create({
     color: "#E8E4D9",
     fontSize: 18,
     marginTop: 16,
-    fontWeight: "600",
+    fontFamily: "DMSans_500Medium",
   },
   errorBanner: {
     position: "absolute",

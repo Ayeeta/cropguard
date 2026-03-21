@@ -84,7 +84,7 @@ const styles = StyleSheet.create({
   sectionTitle: {
     color: "#76C442",
     fontSize: 13,
-    fontWeight: "700",
+    fontFamily: "DMSans_700Bold",
     textTransform: "uppercase",
     letterSpacing: 1,
     marginBottom: 16,
@@ -94,7 +94,7 @@ const styles = StyleSheet.create({
   },
   columnTitle: {
     fontSize: 15,
-    fontWeight: "700",
+    fontFamily: "ZillaSlab_700Bold",
     marginBottom: 8,
   },
   checkRow: {

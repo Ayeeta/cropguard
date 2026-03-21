@@ -33,7 +33,8 @@
         {
           "cameraPermission": "CropGuard needs camera access to analyze your crops."
         }
-      ]
+      ],
+      "expo-font"
     ]
   }
 }

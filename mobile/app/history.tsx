@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   title: {
     color: "#FFFFFF",
     fontSize: 20,
-    fontWeight: "800",
+    fontFamily: "ZillaSlab_700Bold",
   },
   grid: {
     padding: 12,
@@ -150,7 +150,7 @@ const styles = StyleSheet.create({
   diseaseName: {
     color: "#FFFFFF",
     fontSize: 15,
-    fontWeight: "700",
+    fontFamily: "ZillaSlab_700Bold",
     paddingHorizontal: 12,
     paddingTop: 10,
   },
