@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# FiftyOne
+.fiftyone/
+
+# Node / Expo
+node_modules/
+mobile/.expo/
+mobile/dist/
+*.tsbuildinfo
+
+# Images & data
+/tmp/cropguard/
+data/demo_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# ngrok
+*.ngrok-free.app
+
+# SQLite
+*.db
+*.sqlite3
