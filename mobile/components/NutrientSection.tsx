@@ -69,6 +69,8 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     padding: 20,
     marginBottom: 12,
+    borderWidth: 1,
+    borderColor: "#3A3728",
   },
   sectionTitle: {
     color: "#76C442",

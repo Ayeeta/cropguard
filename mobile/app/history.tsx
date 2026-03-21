@@ -118,6 +118,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     paddingVertical: 8,
     borderRadius: 20,
+    borderWidth: 1,
+    borderColor: "#3A3728",
   },
   backBtnText: {
     color: "#E8E4D9",
@@ -131,6 +133,9 @@ const styles = StyleSheet.create({
   },
   grid: {
     padding: 12,
+    maxWidth: 700,
+    alignSelf: "center",
+    width: "100%",
   },
   row: {
     justifyContent: "space-between",
@@ -141,6 +146,8 @@ const styles = StyleSheet.create({
     width: "48%",
     marginBottom: 12,
     overflow: "hidden",
+    borderWidth: 1,
+    borderColor: "#3A3728",
   },
   thumbnail: {
     width: "100%",

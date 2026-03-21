@@ -1,3 +1,4 @@
+import { Platform } from "react-native";
 import { create } from "zustand";
 import { BACKEND_URL } from "../constants/api";
 
@@ -80,11 +81,17 @@ export const useScanStore = create<ScanStore>((set) => ({
 
     try {
       const formData = new FormData();
-      formData.append("image", {
-        uri: imageUri,
-        type: "image/jpeg",
-        name: "crop.jpg",
-      } as any);
+      if (Platform.OS === "web") {
+        const res = await fetch(imageUri);
+        const blob = await res.blob();
+        formData.append("image", blob, "crop.jpg");
+      } else {
+        formData.append("image", {
+          uri: imageUri,
+          type: "image/jpeg",
+          name: "crop.jpg",
+        } as any);
+      }
 
       const response = await fetch(`${BACKEND_URL}/analyze`, {
         method: "POST",
