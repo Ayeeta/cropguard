@@ -152,6 +152,6 @@ Dark soil tones with precision diagnostic energy. Zilla Slab Bold for headings, 
 
 Built at a hackathon with AI-assisted development using Claude Code.
 
-## License
+[msaavedra1026](https://github.com)  [Ayeeta](https://github.com)
 
-MIT
+
